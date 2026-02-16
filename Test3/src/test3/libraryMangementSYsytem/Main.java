@@ -11,12 +11,7 @@ public class Main {
 
         System.out.println("Available books: " + lib.getTotalBooksCount());
 
-        try {
-            lib.borrowBook("ISBN123");
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
-
+      
         System.out.println("Available books: " + lib.getTotalBooksCount());
     }
 }
